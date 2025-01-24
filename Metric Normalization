@@ -1,0 +1,16 @@
+// General score normalization using standard mathematical and statistical principles
+
+VAR _Ymax = a
+VAR _Ymin = b
+VAR _Xmax = c
+VAR _Xmin = d
+VAR _m = (Ymax - Ymin)/(Xmax - Xmin)
+VAR _x = e // x or xi is the input value
+VAR _b = f // the intercept where Max scaling occurs
+
+VAR _yRES = mx + b
+
+RETURN IF(yRES, yRES, BLANK())
+
+// Reverse scaling
+// Add more details
